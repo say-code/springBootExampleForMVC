@@ -16,7 +16,7 @@ import java.util.List;
  * @author sayCode
  * @date 2022/10/2 2:23
  * ProjectName: springBootExampleForMVC
- * Description: TODO
+ * Description: 用户api controller层
  */
 @RestController
 @RequestMapping("/user")
@@ -29,4 +29,5 @@ public class userController {
     public List<User> userSelect(){
         return userService.selectAllUsers();
     }
+
 }
