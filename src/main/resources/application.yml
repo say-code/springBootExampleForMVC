@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: springBootExampleForMvc
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://106.14.141.171:3306/healthy_diet?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: TabStudio@3306
+
+
+
